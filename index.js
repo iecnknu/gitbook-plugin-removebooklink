@@ -4,9 +4,14 @@ var cheerio = require( "cheerio" )
 var wrapImageTags = function(page){
 
     var $ = cheerio.load(page.content);
-
-    $('.summary li .custom-link').text("Hello <b>world</b>!");
     
+    $('.summary li .custom-link').each(function(){
+
+        var img = $(this);
+        
+        $(this).remove();
+    });
+
     page.content = $.html();
 
     return page;
