@@ -5,7 +5,7 @@ var wrapImageTags = function(page){
 
     var $ = cheerio.load(page.content);
 
-    $('.summary li .custom-link').remove();
+    $('.summary li .custom-link').text("Hello <b>world</b>!");
     
     page.content = $.html();
 
