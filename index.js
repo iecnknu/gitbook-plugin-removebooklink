@@ -4,12 +4,13 @@ var cheerio = require( "cheerio" )
 var removebooklink = function(page){
 
     var $ = cheerio.load(page.content);
-    
-    $('.summary li .custom-link').remove();
-    page.content = $.html();
+    $('.summary li .custom-link').each(function(){
+        $(this).remove();
 
-    return page;
-
+        page.content = $.html();
+        
+        return page;
+    });
 }
 
 module.exports = {
