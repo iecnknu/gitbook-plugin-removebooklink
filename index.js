@@ -5,7 +5,8 @@ var removebooklink = function(page){
 
     var $ = cheerio.load(page.content);
     
-    $('.summary li .custom-link').remove().html();
+    $('.summary li .custom-link').remove();
+    page.content = $.html();
 
     return page;
 
