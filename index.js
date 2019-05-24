@@ -1,7 +1,7 @@
 var cheerio = require( "cheerio" )
 
 
-var wrapImageTags = function(page){
+var removebooklink = function(page){
 
     var $ = cheerio.load(page.content);
     
@@ -22,7 +22,7 @@ module.exports = {
     hooks: {
 
     	'page': function(page){    		
-    		return wrapImageTags(page);
+    		return removebooklink(page);
     	}
     },
 
