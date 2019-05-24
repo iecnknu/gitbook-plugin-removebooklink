@@ -4,10 +4,10 @@ var cheerio = require( "cheerio" )
 var removebooklink = function(page){
 
     var $ = cheerio.load(page.content);
-    $('.summary li .custom-link').each(function(){
+    $('div.book-summary nav ul.summary li a.custom-link').each(function(){
         $(this).remove();
     });
-    
+
     page.content = $.html();
 
     return page;
