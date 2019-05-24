@@ -6,11 +6,11 @@ var removebooklink = function(page){
     var $ = cheerio.load(page.content);
     $('.summary li .custom-link').each(function(){
         $(this).remove();
-
-        page.content = $.html();
-        
-        return page;
     });
+    
+    page.content = $.html();
+
+    return page;
 }
 
 module.exports = {
