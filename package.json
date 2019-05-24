@@ -1,7 +1,7 @@
 {
-  "name": "gitbook-plugin-IECLOGO",
+  "name": "gitbook-plugin-removebooklink",
   "version": "0.0.1",
-  "description": "insert the IEC logo to Published with GitBook",
+  "description": "",
   "engines": {
     "gitbook": ">1.x.x"
   },
