@@ -5,11 +5,8 @@ var wrapImageTags = function(page){
 
     var $ = cheerio.load(page.content);
     
-    $('.summary li .custom-link').each(function(){
-
-        var img = $(this);
-        
-        $(this).remove();
+    $(document).ready(function(){
+        $('.summary li .custom-link').remove();
     });
 
     page.content = $.html();
