@@ -1,0 +1,96 @@
+{
+  "_args": [
+    [
+      {
+        "name": "gitbook-plugin-remove-link",
+        "raw": "gitbook-plugin-remove-link@0.0.2",
+        "rawSpec": "0.0.2",
+        "scope": null,
+        "spec": "0.0.2",
+        "type": "version"
+      },
+      "C:\\Users\\dream\\GitBook\\Library\\iecnknu\\khia-google-excel-20181112"
+    ]
+  ],
+  "_from": "gitbook-plugin-remove-link@0.0.2",
+  "_id": "gitbook-plugin-remove-link@0.0.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/gitbook-plugin-remove-link",
+  "_nodeVersion": "7.0.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/gitbook-plugin-remove-link-0.0.2.tgz_1482463000483_0.3272263400722295"
+  },
+  "_npmUser": {
+    "email": "q280835887@qq.com",
+    "name": "lockelee"
+  },
+  "_npmVersion": "3.10.8",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "gitbook-plugin-remove-link",
+    "raw": "gitbook-plugin-remove-link@0.0.2",
+    "rawSpec": "0.0.2",
+    "scope": null,
+    "spec": "0.0.2",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/gitbook-plugin-remove-link/-/gitbook-plugin-remove-link-0.0.2.tgz",
+  "_shasum": "2c6d7a2b58e8b80bf65564b493333b22d2608c14",
+  "_shrinkwrap": null,
+  "_spec": "gitbook-plugin-remove-link@0.0.2",
+  "_where": "C:\\Users\\dream\\GitBook\\Library\\iecnknu\\khia-google-excel-20181112",
+  "author": {
+    "name": "locke_lee"
+  },
+  "dependencies": {},
+  "description": "a plugin to remove link 'published with gitbook'",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "2c6d7a2b58e8b80bf65564b493333b22d2608c14",
+    "tarball": "https://registry.npmjs.org/gitbook-plugin-remove-link/-/gitbook-plugin-remove-link-0.0.2.tgz"
+  },
+  "engines": {
+    "gitbook": ">1.x.x"
+  },
+  "gitHead": "470973da47607f9d3b1cd5a5acd8497e789a4768",
+  "gitbook": {
+    "properties": {
+      "link": {
+        "default": "http://www.joinforwin.com:90",
+        "description": "the link when you click",
+        "type": "string"
+      },
+      "publisher": {
+        "default": "Joinforwin",
+        "description": "describe who publish this doc!",
+        "type": "string"
+      }
+    }
+  },
+  "keywords": [
+    "gitbook",
+    "gibook-plugin",
+    "plugin"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "q280835887@qq.com",
+      "name": "lockelee"
+    }
+  ],
+  "name": "gitbook-plugin-remove-link",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.2"
+}
