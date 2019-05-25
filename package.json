@@ -9,7 +9,7 @@
     "properties": {
       "link": {
         "default": "https://www.nknucsec.com",
-        "description": "the link when you click",
+        "description": "remove the book title link on the content menu.",
         "type": "string"
       },
       "publisher": {
