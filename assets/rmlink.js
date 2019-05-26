@@ -9,6 +9,9 @@ require([
         divider.remove()
         var searchText = $('#book-search-input input')
         searchText.attr('placeholder','開始搜尋')
+        
+        var link = $('.gitbook-link')
+        link.before('<li class="divider"></li>')
     }
     removelink()
     gitbook.events.on('page.change', function () {
